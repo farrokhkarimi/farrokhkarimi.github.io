@@ -330,99 +330,59 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: os 2s ease;
   	-webkit-animation: os 2s ease;
 }
-.embedded {
-  	width: 70%;
-  	-moz-animation: hw 2s ease;
-  	-webkit-animation: hw 2s ease;
-}
-.hw {
-  	width: 70%;
-  	-moz-animation: hw 2s ease;
-  	-webkit-animation: hw 2s ease;
-}
-.altium {
-  	width: 50%;
-  	-moz-animation: altium 2s ease;
-  	-webkit-animation: altium 2s ease;
-}
-.labview {
-  	width: 70%;
-  	-moz-animation: labview 2s ease;
-  	-webkit-animation: labview 2s ease;
-}
-.matlab {
-  	width: 70%;
-  	-moz-animation: matlab 2s ease;
-  	-webkit-animation: matlab 2s ease;
-}
-.web {
-  	width: 50%;
-  	-moz-animation: web 2s ease;
-  	-webkit-animation: web 2s ease;
-}
-.office {
+.programming {
   	width: 90%;
-  	-moz-animation: office 2s ease;
-  	-webkit-animation: office 2s ease;
+  	-moz-animation: programming 2s ease;
+  	-webkit-animation: programming 2s ease;
 }
-.photoshop {
+.software {
   	width: 70%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: software 2s ease;
+  	-webkit-animation: software 2s ease;
 }
-.python {
+.hardware {
+  	width: 70%;
+  	-moz-animation: hardware 2s ease;
+  	-webkit-animation: hardware 2s ease;
+}
+.framework {
   	width: 90%;
-  	-moz-animation: python 2s ease;
-  	-webkit-animation: python 2s ease;
+  	-moz-animation: framework 2s ease;
+  	-webkit-animation: framework 2s ease;
 }
 .ai {
   	width: 90%;
   	-moz-animation: ai 2s ease;
   	-webkit-animation: ai 2s ease;
 }
-.opencv {
-  	width: 90%;
-  	-moz-animation: ai 2s ease;
-  	-webkit-animation: ai 2s ease;
+.git {
+  	width: 80%;
+  	-moz-animation: git 2s ease;
+  	-webkit-animation: git 2s ease;
+}
+.devops {
+  	width: 80%;
+  	-moz-animation: devops 2s ease;
+  	-webkit-animation: devops 2s ease;
 }
 
 @-moz-keyframes os {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes embedded {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-moz-keyframes hw {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-moz-keyframes altium {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes labview {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-moz-keyframes matlab {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-moz-keyframes web {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes office {
+@-moz-keyframes programming {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes photoshop {
+@-moz-keyframes software {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-moz-keyframes python {
+@-moz-keyframes hardware {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes framework {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
@@ -430,48 +390,32 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes opencv {
+@-moz-keyframes git {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes devops {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 
 @-webkit-keyframes os {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes embedded {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes hw {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes altium {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes labview {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes matlab {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
-@-webkit-keyframes web {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes office {
+@-webkit-keyframes programming {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes photoshop {
+@-webkit-keyframes software {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes python {
+@-webkit-keyframes hardware {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes framework {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
@@ -479,9 +423,13 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes opencv {
+@-webkit-keyframes git {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes devops {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 
 /* ------------------------------------------------------------------ */
